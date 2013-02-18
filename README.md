@@ -30,7 +30,7 @@ Register page:
 
 Account page:
 
-![](https://raw.github.com/alaiacano/bootstrap-bootstrap/master/screenshots/register.png)
+![](https://raw.github.com/alaiacano/bootstrap-bootstrap/master/screenshots/account.png)
 # Setup instructions
 
 These are things you'll have to do whether you run locally or on heroku:
