@@ -18,6 +18,19 @@ The technology stack is:
 * Redis for cache (via Redis To Go)
 * Bootstrap for front end framework
 
+# Screenshots
+
+Logged-out page:
+
+![](https://raw.github.com/alaiacano/bootstrap-bootstrap/master/screenshots/welcome.png)
+
+Register page:
+
+![](https://raw.github.com/alaiacano/bootstrap-bootstrap/master/screenshots/register.png)
+
+Account page:
+
+![](https://raw.github.com/alaiacano/bootstrap-bootstrap/master/screenshots/register.png)
 # Setup instructions
 
 These are things you'll have to do whether you run locally or on heroku:
