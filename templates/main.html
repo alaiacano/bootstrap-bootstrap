@@ -1,0 +1,43 @@
+{% extends "../templates/base.html" %}
+{% block hero %}
+  <div class="hero-unit">
+    <p>
+      {% if current_user is not None %}
+        You're logged in as {{current_user.email}}.
+      {% else %}
+        <h1>Welcome!</h1>
+        <p>
+          This project is called <code>bootstrap-bootstrap</code>. It's a bit of boilerplate code to get a web app up and running.
+        </p>
+        <p>
+          I stripped this code out of another project that I was working on so that I don't have to write this basic stuff over and over.
+        </p>
+      {% end %}
+    </p>
+  </div>
+{% end %}
+
+{% block content %}
+<div class="row">
+  <div class="span6">
+    <h3>The technology stack</h3>
+    <ul>
+      <li><a href="http://www.heroku.com/">Heroku</a> for hosting</li>
+      <li><a href="http://www.tornadoweb.org/">Tornado</a> for the web framework</li>
+      <li><a href="http://www.mongodb.org/">Mongodb</a> for persistence (via MongoLab)</li>
+      <li><a href="http://mongoengine.org/">MongoEngine</a> for the ORM</li>
+      <li><a href="http://www.redis.io">Redis</a> for cache (via Redis To Go)</li>
+      <li><a href="http://twitter.github.com/bootstrap/">Bootstrap</a> for front end framework</li>
+    </ul>
+  </div>
+  <div class="span6">
+    <h3>The features</h3>
+    <ul>
+      <li>A pretty layout</li>
+      <li>User registration, log in, log out, password reset</li>
+      <li>Basic <code>User</code> model with email, password, registered_on fields.</li>
+      <li>User info page</li>
+      <li>Admin panel (coming soon).</li>
+  </div>
+</div>
+{% end %}
