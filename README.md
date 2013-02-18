@@ -61,3 +61,7 @@ Set up accounts with MongoLab and Redis To Go. Then run the following commands t
     heroku config:add MONGO_db=<mongo database name>
 
 After that, just follow the standard instructions for [deploying an app on heroku](https://devcenter.heroku.com/articles/git)
+
+# Help
+
+Am I doing something funadmentally wrong here? Let me know!
